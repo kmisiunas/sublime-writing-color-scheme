@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>github.com&#x2f;szupie</string>
+	<string>github.com&#x2f;kmisiunas</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -20,9 +20,9 @@
 		<string>#679c00</string>
 	</dict>
 	<key>name</key>
-	<string>Monokai Extended</string>
+	<string>Writing Theme</string>
 	<key>semanticClass</key>
-	<string>theme.dark.monokai_extended</string>
+	<string>theme.light.writing</string>
 	<key>settings</key>
 	<array>
 		<dict>
