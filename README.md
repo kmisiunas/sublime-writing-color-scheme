@@ -35,10 +35,12 @@ Then inside Sublime Text, go to `Preferences -> Color Scheme -> User -> Writing 
 
 ### Light Theme (recommended)
 
+![image](https://raw.githubusercontent.com/kmisiunas/sublime-writing-theme/master/screenshots/bright-theme.png)
 
-![image](https://f.cloud.github.com/assets/383994/726833/0fde0d16-e138-11e2-8e3d-8dbfc91224e7.png)
-
-
+Includes: 
+ - Equation special background
+ - balanced colors
+ - In-line equations in italics
 
 ## Author
 
