@@ -1,8 +1,6 @@
 # [Writing Theme for Sublime Text 2/3](https://github.com/kmisiunas/sublime-writing-theme)
 
-> Modified Monokai theme with specific additions for LaTeX. All modifications made to allow better writing experience. 
-
-#### [Jump to Examples ↓](#examples)
+> Modified Monokai theme with specific additions for LaTeX. All modifications made to allow better writing experience. Theme still in Beta - user suggestions are welcome!
 
 ## Getting Started
 
