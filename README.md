@@ -18,7 +18,7 @@ If you already have [Package Control](http://wbond.net/sublime_packages/package_
 Go to `Preferences -> Browse Packages`, and then either download and unzip this plugin into that directory, or:
 
 ``` bash
-git clone https://github.com/kmisiunas/sublime-writing-theme.git "sublime-writing-theme"
+git clone https://github.com/kmisiunas/sublime-writing-theme.git "sublime-writing-color-scheme"
 ```
 
 ### 2. Switch Color Scheme
