@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>name</key>
+	<string>Writing Color Scheme - Light</string>
 	<key>author</key>
 	<string>github.com&#x2f;kmisiunas</string>
 	<key>colorSpaceName</key>
@@ -19,8 +21,6 @@
 		<key>selectionForeground</key>
 		<string>#679c00</string>
 	</dict>
-	<key>name</key>
-	<string>Writing Theme</string>
 	<key>semanticClass</key>
 	<string>theme.light.writing</string>
 	<key>settings</key>
@@ -28,10 +28,14 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>activeGuide</key>
-				<string>#7fb11b</string>
 				<key>background</key>
 				<string>#fafafa</string>
+				<key>caret</key>
+				<string>#00bbff</string>
+				<key>foreground</key>
+				<string>#35342d</string>
+				<key>activeGuide</key>
+				<string>#7fb11b</string>
 				<key>bracketContentsForeground</key>
 				<string>#494835</string>
 				<key>bracketContentsOptions</key>
@@ -40,14 +44,10 @@
 				<string>#49483ea5</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
-				<key>caret</key>
-				<string>#666663</string>
 				<key>findHighlight</key>
 				<string>#ffe792</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
-				<key>foreground</key>
-				<string>#35342d</string>
 				<key>invisibles</key>
 				<string>#3b3a32</string>
 				<key>lineHighlight</key>
@@ -60,6 +60,10 @@
 				<string>#635f2d</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
+				<key>shadow</key> <!-- new unclear function --> 
+                <string>#808080</string>
+                <key>shadowWidth</key>
+                <string>6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -387,11 +391,11 @@
 			<key>name</key>
 			<string>JSON String</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<string>meta.structure.dictionary.json, string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfcfc2</string>
+				<string>#0089b3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1126,7 +1130,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1138,6 +1142,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#cf7000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>WritingStyle: passive voice</string>
+			<key>scope</key>
+			<string>writingstyle.passive</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e43cf8</string>
 			</dict>
 		</dict>
 	</array>
