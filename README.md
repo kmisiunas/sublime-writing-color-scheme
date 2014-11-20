@@ -45,10 +45,9 @@ To get best experience we recommend modifying your language specific settings. F
     // Add this file to Packages/User/ folder for effect
 
     "extensions": [ "tex" ],
-
-    "color_scheme": "Packages/User/sublime-writing-theme/Writing Color Scheme.tmTheme",
-
-
+    
+    "color_scheme": "Packages/User/sublime-writing-color-scheme/Writing Color Scheme Light.tmTheme",
+    
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": false,
