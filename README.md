@@ -46,7 +46,7 @@ To get best experience we recommend modifying your language specific settings. F
 
     "extensions": [ "tex" ],
     
-    "color_scheme": "Packages/User/sublime-writing-color-scheme/Writing Color Scheme Light.tmTheme",
+    "color_scheme": "Packages/Writing Color Scheme/Writing Color Scheme Light.tmTheme",
     
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
