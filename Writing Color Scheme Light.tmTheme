@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Writing Color Scheme - Light</string>
 	<key>author</key>
-	<string>github.com&#x2f;kmisiunas</string>
+	<string>github.com/kmisiunas</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -22,7 +22,7 @@
 		<string>#679c00</string>
 	</dict>
 	<key>semanticClass</key>
-	<string>theme.light.writing</string>
+	<string>theme.light.writing_color_scheme_light</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -33,7 +33,7 @@
 				<key>caret</key>
 				<string>#00bbff</string>
 				<key>foreground</key>
-				<string>#35342d</string>
+				<string>#1A1A18</string>
 				<key>activeGuide</key>
 				<string>#7fb11b</string>
 				<key>bracketContentsForeground</key>
@@ -60,10 +60,10 @@
 				<string>#635f2d</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
-				<key>shadow</key> <!-- new unclear function --> 
-                <string>#808080</string>
-                <key>shadowWidth</key>
-                <string>6</string>
+				<key>shadow</key>
+				<string>#808080</string>
+				<key>shadowWidth</key>
+				<string>6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +74,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715e</string>
+				<string>#7A765F</string>
+				<key>background</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -410,7 +412,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#666663</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -421,9 +423,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ae81ff</string>
+				<string>#FF8903</string>
 				<key>foreground</key>
-				<string>#666663</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -479,52 +481,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#3bc0f0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: storage</string>
-			<key>scope</key>
-			<string>storage.type.class.python, storage.type.function.python, storage.modifier.global.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#3bc0f0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: import</string>
-			<key>scope</key>
-			<string>keyword.control.import.python, keyword.control.import.from.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f9005add</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: Support.exception</string>
-			<key>scope</key>
-			<string>support.type.exception.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#0089b3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markdown: plain</string>
-			<key>scope</key>
-			<string>text.html.markdown</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#49483e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -744,184 +700,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Shell: builtin</string>
-			<key>scope</key>
-			<string>support.function.builtin.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#679c00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: variable</string>
-			<key>scope</key>
-			<string>variable.other.normal.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#0089b3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: DOTFILES</string>
-			<key>scope</key>
-			<string>source.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#49483e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: meta scope in loop</string>
-			<key>scope</key>
-			<string>meta.scope.for-in-loop.shell, variable.other.loop.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#cf7000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: Function name</string>
-			<key>scope</key>
-			<string>entity.name.function.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#679c00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: Quotation Marks</string>
-			<key>scope</key>
-			<string>punctuation.definition.string.end.shell, punctuation.definition.string.begin.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#49483e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: Meta Block</string>
-			<key>scope</key>
-			<string>meta.scope.case-block.shell, meta.scope.case-body.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#cf7000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: []</string>
-			<key>scope</key>
-			<string>punctuation.definition.logical-expression.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#49483e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Shell: Comment</string>
-			<key>scope</key>
-			<string>comment.line.number-sign.shell</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#7c7865</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Makefile: Comment</string>
-			<key>scope</key>
-			<string>comment.line.number-sign.makefile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#7c7865</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Makefile: Comment punctuation</string>
-			<key>scope</key>
-			<string>punctuation.definition.comment.makefile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#7c7865</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Makefile: Variables</string>
-			<key>scope</key>
-			<string>variable.other.makefile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#f9005a</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Makefile: Function name</string>
-			<key>scope</key>
-			<string>entity.name.function.makefile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#679c00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Makefile: Function</string>
-			<key>scope</key>
-			<string>meta.function.makefile</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0089b3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>GitGutter deleted</string>
 			<key>scope</key>
 			<string>markup.deleted.git_gutter</string>
@@ -1119,7 +897,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#e5e6f0</string>
+				<string>#E5E6F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1153,6 +931,41 @@
 			<dict>
 				<key>foreground</key>
 				<string>#e43cf8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latex (v3): Equation inline</string>
+			<key>scope</key>
+			<string>meta.environment.math.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latex (v3): Equation Block</string>
+			<key>scope</key>
+			<string>meta.environment.math.block</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>background</key>
+				<string>#E5E6F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latex: braces</string>
+			<key>scope</key>
+			<string>punctuation.definition.group.brace</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#424235</string>
 			</dict>
 		</dict>
 	</array>

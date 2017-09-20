@@ -72,6 +72,11 @@ To get best experience we recommend modifying your language specific settings. F
     "caret_extra_bottom": 1
     }
 
+## Versions
+
+ + **v2017-09-20** An update to make it compatible with sublime text v3. Also made comments a bit softer and main text a bit sharper. 
+
+
 ## Author
 
 **Karolis Misiunas**
@@ -83,5 +88,6 @@ To get best experience we recommend modifying your language specific settings. F
 
 **Jon Schlinkert** - provided initial Monakai Extended theme
 + [http://github.com/jonschlinkert](http://github.com/jonschlinkert)
+
 
 [MIT License](LICENSE-MIT)
