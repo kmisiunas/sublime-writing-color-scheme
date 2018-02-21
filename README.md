@@ -1,19 +1,26 @@
 # [Writing Color Scheme for Sublime Text 2/3](https://github.com/kmisiunas/sublime-writing-color-scheme)
 
-> Modified Monokai color scheme with specific additions for LaTeX. All modifications made to allow better writing experience. Color scheme still in Beta - user suggestions are welcome!
+Color scheme optimised for writing in Latex and Markdown. Features:
+
+ - Pleasant background/foreground contrast
+ - Equations in red
+ - \cite and \ref less distracting 
+ 
+![image](https://raw.githubusercontent.com/kmisiunas/sublime-writing-theme/master/screenshots/example_20180221.png)
+
 
 ## Getting Started
 
-### 1. Installation
+## Installation
 
-#### Package Control
+### Package Control
 
 If you already have [Package Control](http://wbond.net/sublime_packages/package_control/) installed in Sublime Text:
 
 * Select "Install Package" from the Command Palette: <kbd>Ctrl+Shift+P</kbd> on Windows and Linux or <kbd>⇧⌘P</kbd> on OS X)
 * Search for "**Writing Color Scheme**" and click <kbd>enter</kbd>.
 
-#### Manual Installation
+### Manual Installation
 
 Go to `Preferences -> Browse Packages`, and then either download and unzip this plugin into that directory, or:
 
@@ -21,21 +28,10 @@ Go to `Preferences -> Browse Packages`, and then either download and unzip this 
 git clone https://github.com/kmisiunas/sublime-writing-theme.git "sublime-writing-color-scheme"
 ```
 
-### 2. Switch Color Scheme
+### Switching Color Scheme
 
-Then inside Sublime Text, go to `Preferences -> Color Scheme -> User -> Writing Color Scheme`.
+Then inside Sublime Text, go to `Preferences -> Color Scheme -> Writing Color Scheme`.
 
-
-## Latex Examples
-
-### Light Color Scheme (recommended)
-
-![image](https://raw.githubusercontent.com/kmisiunas/sublime-writing-theme/master/screenshots/bright-theme.png)
-
-Includes: 
- - Equation special background
- - balanced colors
- - In-line equations in italics
 
 ## Recommended settings
 
@@ -75,7 +71,7 @@ To get best experience we recommend modifying your language specific settings. F
 ## Versions
 
  + **v2017-09-20** An update to make it compatible with sublime text v3. Also made comments a bit softer and main text a bit sharper. 
-
+ + **v2018-02-21** Updated colors for labels and functions. Within text now they are less distracting. 
 
 ## Author
 
