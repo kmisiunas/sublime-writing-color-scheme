@@ -58,15 +58,19 @@ To get best experience we recommend modifying your language specific settings. F
     // Line
     "line_numbers": true,
     "highlight_line": false,
-    "line_padding_top": 2,
+    "line_padding_top": 4,
     "line_padding_bottom": 2,
-
+    
     // Caret
     "caret_style": "solid", // blink with "smooth"
     "caret_extra_width": 1, 
     "caret_extra_top": 3,
-    "caret_extra_bottom": 1
+    "caret_extra_bottom": 2
     }
+
+## Recomended packages
+
+The theme is great in "Distraction Free Mode" or with [DistractionFreeWindow](https://github.com/aziz/DistractionFreeWindow)
 
 ## Versions
 
